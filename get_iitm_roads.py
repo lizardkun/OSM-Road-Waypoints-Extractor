@@ -15,13 +15,13 @@ class Get_osm():
     def get_road(self):
         n=int(input("Enter a road network :\n 0 -- delhi avenue\n 1 -- alumni avenue \n 2 -- hostel avenue\n"))
         if(n==0):
-            self.tree = ET.parse('osm_nodes/roads/delhiavenue.xml')
+            self.tree = ET.parse('roads/delhiavenue.xml')
             self.root = self.tree.getroot()
         elif(n==1):
-            self.tree = ET.parse('osm_nodes/roads/alumniavenue.xml')
+            self.tree = ET.parse('roads/alumniavenue.xml')
             self.root = self.tree.getroot()
         elif(n==2):
-            self.tree = ET.parse('osm_nodes/roads/hostelavenue.xml')
+            self.tree = ET.parse('roads/hostelavenue.xml')
             self.root = self.tree.getroot()
         else:
             print("unrecognized")
@@ -53,7 +53,7 @@ class Get_osm():
         tree = ET.ElementTree(OSM_coordinates)
  
         # write the tree into an XML file
-        tree.write("osm_nodes/gps_nodes/delhiavenue.xml", encoding ='utf-8', xml_declaration = True)
+        tree.write("gps_nodes/delhiavenue.xml", encoding ='utf-8', xml_declaration = True)
         print("Done and dusted")
 
         

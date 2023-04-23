@@ -48,10 +48,12 @@ for node_id in node_ref_ids:
     way_elem.append(nd_elem)
 
 xml_tree = ET.ElementTree(way_elem)
-xml_tree.write(f"{way_name}_nodes.xml", encoding="utf-8", xml_declaration=True)
+xml_tree.write(f"roads/way_{way_id}_nodes.xml", encoding="utf-8", xml_declaration=True)
 
-# Print the node ref ids, way id, center coordinates, and filename of the saved XML file
+
+# Print the node ref ids and the filename of the saved XML file
 print(f"Node ref ids: {node_ref_ids}")
-print(f"Way id: {way_id}")
-print(f"Center coordinates: ({lat}, {lon})")
-print(f"XML file saved: {way_name}_nodes.xml")
+print(f"XML file saved: roads/way_{way_id}_nodes.xml")
+
+from get_gps import Get_osm
+Get_osm(way_id)

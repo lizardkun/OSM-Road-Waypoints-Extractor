@@ -2,7 +2,14 @@
 To obtain the latitude and longitude values of all the nodes that make up a particular road in OpenStreetMap (OSM), you can enter the way-id of the road. The script will then extract this information from OSM and return it to you.
 This can be helpful in a variety of applications, such as autonomous vehicle navigation, mapping and geospatial analysis.
 
-In OSM all roads and routes have a way ID, you can find the way id by selecting the route, here it is highlighted number below _Way:Delhi Avenue_
+**First clone this repository**
+```
+git clone https://github.com/lizardkun/OSM-Road-Waypoints-Extractor.git
+```
+
+In Open Street Maps all roads and routes are assigned a unique way ID, you can find the way id by selecting the route, here, it is highlighted number below _Way:Delhi Avenue_
+
+
 
 ![image](https://user-images.githubusercontent.com/94188928/233842612-79de6e05-20df-4fff-9456-824879531b04.png)
 

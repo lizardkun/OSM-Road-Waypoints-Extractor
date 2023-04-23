@@ -1,0 +1,55 @@
+<osm version="0.6" generator="CGImap 0.8.8 (2356513 spike-08.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+    <way id="191207584" visible="true" version="6" changeset="116110007" timestamp="2022-01-13T14:33:33Z" user="eternaltyro" uid="104583">
+    <nd ref="268789976"/>
+    <nd ref="2155617682"/>
+    <nd ref="268790007"/>
+    <nd ref="330653141"/>
+    <nd ref="330653166"/>
+    <nd ref="268790008"/>
+    <nd ref="330653246"/>
+    <nd ref="268790010"/>
+    <nd ref="268790016"/>
+    <nd ref="330653907"/>
+    <nd ref="5628390326"/>
+    <nd ref="672642687"/>
+    <nd ref="268790019"/>
+    <nd ref="330653928"/>
+    <nd ref="268790021"/>
+    <nd ref="330653958"/>
+    <nd ref="268790022"/>
+    <nd ref="268790024"/>
+    <nd ref="330648048"/>
+    <nd ref="330648038"/>
+    <nd ref="275676968"/>
+    <nd ref="268790027"/>
+    <nd ref="2168356838"/>
+    <nd ref="330648694"/>
+    <nd ref="330648701"/>
+    <nd ref="2168356840"/>
+    <nd ref="268790029"/>
+    <nd ref="2168356837"/>
+    <nd ref="268792314"/>
+    <nd ref="2168356835"/>
+    <nd ref="330648098"/>
+    <nd ref="268792315"/>
+    <nd ref="2168356834"/>
+    <nd ref="268792316"/>
+    <nd ref="268792317"/>
+    <nd ref="2168356833"/>
+    <nd ref="2168356832"/>
+    <nd ref="268792318"/>
+    <nd ref="5391143596"/>
+    <nd ref="5391143604"/>
+    <nd ref="280089411"/>
+    <nd ref="670686628"/>
+    <nd ref="2018053792"/>
+    <nd ref="2168356824"/>
+    <nd ref="2018053789"/>
+    <nd ref="670686618"/>
+    <nd ref="330780901"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="maxspeed" v="35"/>
+    <tag k="name" v="Alumni Avenue"/>
+    <tag k="surface" v="asphalt"/>
+    </way>
+    </osm>

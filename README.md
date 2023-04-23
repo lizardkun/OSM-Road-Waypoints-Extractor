@@ -1,4 +1,4 @@
-# OSM Road Node Extractor
+# OSM Road Waypoints Extractor
 To obtain the latitude and longitude values of all the nodes that make up a particular road in OpenStreetMap (OSM), you can enter the way-id of the road. The script will then extract this information from OSM and return it to you.
 This can be helpful in a variety of applications, such as autonomous vehicle navigation, mapping and geospatial analysis.
 
